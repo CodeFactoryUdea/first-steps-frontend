@@ -1,0 +1,39 @@
+
+.main{
+    border: 0px solid green;
+    width: 410px;
+    height: 100px;
+}
+
+.container {
+    width: 100px;
+    height: 100px;
+    border: 0px solid red;
+    display: inline-block;
+}
+
+.item {
+    display: inline-block;
+    border: 0px solid red;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.box-y {
+    background-color: yellow;
+    float: right;
+    margin-right: 36px;
+
+}
+.box-b {
+    background-color: blue;
+    color: white;
+    float: right;
+    margin-right: 36px;
+
+}
+.box-r {
+    background-color: red
+}
