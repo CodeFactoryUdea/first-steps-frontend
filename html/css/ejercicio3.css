@@ -1,0 +1,211 @@
+body{
+    margin: 0%;
+    padding: auto;
+}
+
+.contendor-principal{
+   display: flex;
+   flex-direction: row;
+}
+
+.head1{
+    width: 100%;
+    height: 104px;
+    background-color: #FA6464;
+}
+
+.head2{
+    width: 100%;
+    height: 180px;
+    background-color: #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 800px;
+}
+
+.circulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.circulo{
+    height: 130px;
+    width: 130px;
+    border-radius: 100px;
+
+    background-color: #fff;
+}
+
+.body{
+    width: 100%;
+    height: 567px;
+    background-color: #fff;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+}
+
+.cajas{
+
+    display: flex;
+    justify-content: center;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.caja1{
+    padding-top: 50px;
+}
+
+.caja-negra{
+    width: 581px;
+    height: 350px;
+    background-color: #000;
+
+    display: flex;
+    flex-direction:column-reverse;  
+}
+
+.caja-degradado{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+
+    background: linear-gradient(to bottom, #000000 0%, #5B0000 85%, #5B0000 100%);
+}
+
+.caja-contenedor{
+
+    display: flex;
+    justify-content:center;
+    align-items: end;
+    gap: 50px;
+
+    width: 100%;
+    height: 500px;
+}
+.caja2{
+
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+
+}
+
+.caja-gris-contenedor{
+
+    width: 600px;
+    height: 500px;
+    background-color: #949090;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+
+.caja-azul{
+
+    width: 500px;
+    height: 100px;
+    background-color: #9FB6F0;
+
+    border-radius: 0px 100px 0px 0px;
+
+}
+
+.caja-verde{
+
+    width: 500px;
+    height: 200px;
+    margin-bottom: 70px;
+
+    background-color: #1AF330;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circulo2{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+
+    background-color: #fff;
+
+}
+
+.cuadrado{
+    
+    width: 150px;
+    height: 150px;
+    background-color: #FF8585;
+}
+
+
+
+
+
+
+
+
+.caja-gris-rosada{
+
+    width: 400px;
+    height: 450px;
+    border-radius: 0% 30% 0% 30%;
+    background-color: #F0EBEB;
+    
+
+}
+
+.rosado{
+    width: 100%;
+    height: 320px;
+    border-radius: 0% 30% 0% 0%;
+    background-color: #FFC7C7;
+}
+
+.caja-rosada-degradado{
+
+    position: relative;
+    bottom: 100px;
+    left: 65%;
+
+
+    width: 100px;
+    height: 150px;
+    background: linear-gradient(to bottom, #FF858500 0%, #FF8585 30%);
+
+}
+
+
+
+
+
+
+
+
+.footer{
+
+    width: 100%;
+    height: 140px;
+    background-color: #000;
+
+}
+
+
+
+
+
